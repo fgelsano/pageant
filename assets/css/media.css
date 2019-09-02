@@ -1,0 +1,116 @@
+@media(max-width: 480px){
+	#content form{
+		padding-top: 0;
+	}
+	#content form section{
+		margin-top: 0;
+		padding-top: 0;
+	}
+	#content form section .containe .row,
+	#content form section .containe .row .col-md-5,
+	#content form section .containe .row .col-md-5 .panel-body{
+		padding: 0;
+	}
+	#content form section .containe .row .col-md-5 .panel-body{
+		text-align: center;
+	}
+	#content form section .containe .row .col-md-5 .panel-body .ca-image{
+		width: 100%;
+		margin:0 auto;
+		background-size: cover;
+		height: 250px;
+		position: relative;
+		margin-bottom: 4px;
+		overflow: visible;
+	}
+	#content form section .containe .row .col-md-5 .panel-body .ca-image .tablet{
+		position: absolute;
+		top:0;
+		left: 0;
+		display: block;
+		font-size: 4em;
+		color: #000;
+		text-shadow:0 0 4px #fff;
+	}
+	#content form section .containe .row .col-md-7{
+		padding:0;
+	}
+	#content form section .containe .row .col-md-7 h3{
+		text-align: center;
+		padding-left: 0;
+		margin:4px 0;
+	}
+	#content form section .containe .row .col-md-7 .desk{
+		display: none;
+	}
+	#content form section .containe .row .col-md-7 .form-group .col-xs-3{
+		padding-right: 2px;
+		padding-left: 2px;
+	}
+	#content form section .containe .row .col-md-7 .form-group .col-xs-3 .btn h1{
+		margin:0;
+	}
+	#content form section .containe .row .col-md-7 .form-group .col-xs-3 .btn{
+		margin:0;
+		margin-bottom: 3px;
+		padding:15px 0;
+	}
+	#content form section .containe .row .col-md-7 .form-group .col-xs-3 .btn .cleartext{
+		font-size:2em;
+		padding:4px 0;
+	}
+	#category .scoredata{
+		font-size: .9;
+		height: 40px;
+	}
+	#category{
+		margin-bottom: 4px;
+		margin-top: 3px;
+	}
+	#category .okbutton div h2{
+		padding: 4px 0;
+	}
+	/*#navigation .navbar{
+		display: none;
+	}*/
+	/*#content{
+		padding-top: 0;
+	}*/
+	#content form section .containe .row .col-md-7 .form-group{
+		display: table;
+	}
+	#content .nextcat{
+		display: none;
+		position: fixed;
+		left: 0;
+		width: 100%;
+		bottom: 5px;
+		z-index: 99999;
+		background-color: #fff;
+		text-align: center;
+		box-shadow: 0 0 4px #000;
+		
+	}
+	#content .nextcat .btn a{
+		font-size: 2em;
+		font-weight: bolder;
+		color:red;
+		text-align: center;
+	}
+	.navbar-toggle{
+		position: absolute;
+		right: 0;
+		z-index: 9999;
+		background-color: #fff;
+		box-shadow: 0 0 4px #000;
+	}
+	.navbar-toggle span{
+		background-color:#000;
+	}
+	.navbar{
+		min-height: 0;
+	}
+	#content{
+		padding-top: 10px;
+	}
+}

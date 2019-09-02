@@ -1,0 +1,67 @@
+body{
+  background-color: #eee;
+  position: relative;
+}
+.image{
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+.choice{
+  position: absolute;
+  right: 10px;
+  top:100px;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  padding: 12px 16px;
+  box-shadow: 0 0 4px #000;
+  z-index: 2;
+}
+.candidateimage{
+  position: absolute;
+  top:100px;
+  left: 10px;
+  width: 400px;
+  background-color: #fff;
+  padding: 12px 16px;
+  box-shadow: 0 0 4px #000;
+  z-index: 2;
+}
+.candidateimage .cimage img{
+  width: 100%;
+}
+.score{
+  position: absolute;
+  top:40%;
+  left: 50%;
+  width: 100%;
+  background-color: #fff;
+
+  transform: translate(-50%,20%);
+  text-align: center;
+  z-index: 1;
+}
+.score h1{
+  font-size: 3em;
+}
+.score .scoredata i{
+  font-size: 12em;
+  padding: 0 4px;
+}
+.score .status{
+  padding:6px 0;
+  height: 120px;
+}
+.score .status div{
+  display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #99ffe6;
+    border:2px solid #000;
+    margin:0 4px;
+
+}

@@ -1,0 +1,85 @@
+/* #videoBackground {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+} */
+body{
+    overflow: hidden;
+    font-family: 'Berkshire Swash', cursive;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+    background-color: rgb(27, 27, 27);
+    background-blend-mode: multiply;
+    opacity: 0.5;
+}
+h1{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    
+}
+h2{
+    font-family: Berkshire Swash;
+}
+.image-top{
+    width: 100%;
+}
+.image-link{
+    width: 35vw;
+    cursor: pointer;
+    display: block;
+}
+.image-link-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-link-items{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.candidate {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.2s;
+}
+.container-fluid .row .col-md-12 .content > h1{
+    font-family: monserat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fff;
+    color: gold;
+}
+.container-fluid .row .col-md-12 .content #showcandidate h1{
+    font-family: monserat;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.container-fluid .row .col-md-12 .content #showcandidate h1 span{
+    font-family: 'Berkshire Swash';
+}
